@@ -29,7 +29,7 @@ APP_DIR = Path(__file__).resolve().parent
 ROOT_DIR = APP_DIR.parent
 GAMES_DIR = ROOT_DIR / "games"
 STATS_FILE = APP_DIR / "stats.json"
-TITLE = "Game Launcher"
+TITLE = "Pixel Vault"
 
 WIDTH, HEIGHT = 720, 480
 CARD_HEIGHT = 92
@@ -464,7 +464,7 @@ class Launcher:
         screen.fill(BG_COLOR)
 
         # Header
-        title = title_font.render("GAME LAUNCHER", True, TEXT_COLOR)
+        title = title_font.render("PIXEL VAULT", True, TEXT_COLOR)
         screen.blit(title, (40, 22))
         hint = subtitle_font.render("Pick a game and press Enter", True, MUTED_COLOR)
         screen.blit(hint, (40, 64))

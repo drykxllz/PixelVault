@@ -27,7 +27,7 @@ code/
 
 ## Run it
 
-- Double-click **Game Launcher** on the Desktop, or
+- Double-click **Pixel Vault** on the Desktop, or
 - From a terminal:
 
 ```

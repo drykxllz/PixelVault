@@ -1,4 +1,4 @@
-"""Generate icon.ico — the Game Launcher desktop icon.
+"""Generate icon.ico — the Pixel Vault desktop icon.
 
 Run with:
     python make_icon.py            # writes icon.ico using style "a"
