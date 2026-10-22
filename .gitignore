@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Local player data (scores and playtime are per-machine)
+launcher/stats.json
+
+# Icon previews from make_icon.py compare
+launcher/icon_*.png
